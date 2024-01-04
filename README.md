@@ -6,16 +6,16 @@ This is a reminder for myself.
 
 TODO: create a pacman script to auto install all of these
 
-# Stuff
+## Stuff
 - lsd - ls but epic
 - picom - transparency in dwm/reduce screen tearing (sometimes)
 - alacritty - le terminal
 
-# oh-my-zsh plugins (yes I use oh-my-zsh)
+## oh-my-zsh plugins (yes I use oh-my-zsh)
 - zsh-syntax-highlighting
 - zsh-autosuggestions
 
-# vim plugins
+## vim plugins
 - vim-pathogen - plugin installer
 - auto-pairs - auto pairing brackets/quotes
 - vim-airline - good ol' airline
