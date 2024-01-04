@@ -27,4 +27,4 @@ TODO: create a pacman script to auto install all of these
 # To add dwm to display manager
 In this case, using LightDM
 
-add `dwm.desktop` to /usr/share/xsessions
+add `dwm.desktop` to /usr/share/xsessions, copy execDwm to path, usually `/usr/local/bin/`
