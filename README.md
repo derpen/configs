@@ -1,5 +1,5 @@
-# configs
-its my settings bros
+# Le CONFIGURATION
+Pretty boring setting, nothing sick
 
 # To Install
 This is a reminder for myself.
