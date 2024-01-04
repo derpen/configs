@@ -1,0 +1,28 @@
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
+set number
+set relativenumber
+set expandtab
+set autoindent
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set wrap linebreak
+set ignorecase
+
+let g:clang_library_path='/usr/lib/llvm15/lib/'
+
+"this is for syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+"autocompile C file with f8
+map <F8> :w <CR> :!gcc % -o %< -lm && ./%< <CR>
