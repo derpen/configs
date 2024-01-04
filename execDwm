@@ -1,0 +1,8 @@
+#!/bin/sh
+
+while true; do xsetroot -name "$( date +"%A, %d %B %Y | %R" )"; sleep 1m; done &
+xset r rate 300 50 &&
+setxkbmap -option caps:swapescape &&
+picom -b &&
+xrandr --output VGA-0 --brightness 0.7 &&
+dwm 
