@@ -10,6 +10,7 @@ TODO: create a pacman script to auto install all of these
 - lsd - ls but epic
 - picom - transparency in dwm/reduce screen tearing (sometimes)
 - alacritty - le terminal
+- ttf-iosevka - Font for alacritty, install from AUR
 - pathogen - vim plugin installer
 
 ## oh-my-zsh plugins (yes I use oh-my-zsh)
