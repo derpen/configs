@@ -21,15 +21,15 @@ MOD+SHIFT+Q
 or
 kill -TERM dwmpid
 ---
- config.def.h |  1 +
+ config.h |  1 +
  dwm.1        | 10 ++++++++++
  dwm.c        | 22 ++++++++++++++++++++++
  3 files changed, 33 insertions(+)
 
-diff --git a/config.def.h b/config.def.h
+diff --git a/config.h b/config.h
 index a9ac303..e559429 100644
---- a/config.def.h
-+++ b/config.def.h
+--- a/config.h
++++ b/config.h
 @@ -94,6 +94,7 @@ static Key keys[] = {
  	TAGKEYS(                        XK_8,                      7)
  	TAGKEYS(                        XK_9,                      8)
