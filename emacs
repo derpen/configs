@@ -14,3 +14,11 @@
 (set-background-color "#111111")
 (add-to-list 'default-frame-alist '(foreground-color . "#E0DFDB"))
 (add-to-list 'default-frame-alist '(background-color . "#111111"))
+
+;Pixel Scrolling
+(pixel-scroll-precision-mode t)
+
+;Relative Numbering
+(setq display-line-numbers-type 'relative)
+(global-display-line-numbers-mode)
+

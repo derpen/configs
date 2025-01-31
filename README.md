@@ -17,7 +17,7 @@ TODO: create a pacman script to auto install all of these
 - zsh-syntax-highlighting
 - zsh-autosuggestions
 
-## vim plugins
+## vim plugins (Irrelevant, uses nvim with nvchad now)
 - auto-pairs - auto pairing brackets/quotes
 - vim-airline - good ol' airline
 - youcompleteme - code autocomplete
