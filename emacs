@@ -22,3 +22,5 @@
 (setq display-line-numbers-type 'relative)
 (global-display-line-numbers-mode)
 
+;Font
+(set-frame-font "Iosevka 12" nil t)
