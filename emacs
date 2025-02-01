@@ -24,3 +24,6 @@
 
 ;Font
 (set-frame-font "Iosevka 12" nil t)
+
+;Text Wrapping
+(global-visual-line-mode t)
