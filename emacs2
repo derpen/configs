@@ -1,0 +1,30 @@
+;; Don't show the splash screen
+(setq inhibit-startup-message t)  ; Comment at end of line!
+(add-to-list 'warning-suppress-types '(files missing-lexbind-cookie)) ; Some weird "lexical-binding" thing I don't understand about yet
+(setq visible-bell t)
+
+
+;; Turn off some unneeded UI elements
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
+
+;; Display line numbers in every buffer
+(global-display-line-numbers-mode 1)
+
+(load-theme 'deeper-blue t)
+
+;; Font
+(add-to-list 'default-frame-alist
+             '(font . "Iosevka-16"))
+; Source - https://stackoverflow.com/a/296316
+; The value is in 1/10pt, so 100 will give you 10pt, etc. 
+;(set-face-attribute 'default nil :height 200)
+
+
+(blink-cursor-mode 0)
+
+(global-visual-line-mode 1)
+
+;; History hack
+(savehist-mode 1)
